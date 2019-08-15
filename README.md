@@ -34,15 +34,13 @@ You can find the project at [99problems](ninenineproblems.com).
 ## Project Overview
 
 
-1️⃣ [Trello Board](🚫add link to trello board here)
+1️⃣ [Trello Board](https://trello.com/b/he82E7wv/labs-15-pain-point)
 
-1️⃣ [Product Canvas](🚫add link to product canvas here)
+1️⃣ [Product Canvas](https://www.notion.so/Pain-Point-Radar-d6bb1298df424fe694c16df3885c23ff)
 
-🚫 Replace lorem ipsum with a description of your project
+Coming up with ideas for new projects that can be used by Lambda School is a difficult and time consuming task which can end up creating sub-optimal or superfluous projects. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Can we auto-generate project descriptions which can be used to help craft ideas for projects?
 
 🚫  delete if front end is not applicable to your project
 
