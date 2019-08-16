@@ -85,14 +85,14 @@ company_list = list()
 
 # Change to narrow the search, funds raised ranges require different
 # step amounts so the scraper doesn't miss too many companies
-start = 1000000
-stop = 100000000
-incr = 1000000
+start = 500000
+stop = 1000000
+incr = 2500
 
 for stage in stages:
     for i in range(start, stop, incr):
         url = root_url + stage + '&raised[min]=' + str(i) + '&raised[max]=' + str(i+incr)
-        
+
         # Navigate to the right page for scraping
         driver.get(url)
         html = FFwebdriver(driver)
@@ -100,7 +100,7 @@ for stage in stages:
         # Parse the html
         if html is not None:
             company_list = scraping(html, company_list)
-        
+
         # Save regularly
         if i % (incr*10) == 0:
             print(i)
