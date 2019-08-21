@@ -6,7 +6,7 @@
 
 🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements.
 
-# 1️⃣ 99 problems
+# 1️⃣ 99 problems 
 
 You can find the project at [99problems](ninenineproblems.com).
 
