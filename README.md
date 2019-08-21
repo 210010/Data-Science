@@ -10,7 +10,7 @@
 
 You can find the project at [99problems](ninenineproblems.com).
 
-## 5️⃣ Contributors
+## 5️⃣ Contributors 
 
 🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
 
