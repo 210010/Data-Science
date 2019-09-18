@@ -14,7 +14,7 @@ You can find the project at [99problems](ninenineproblems.com).
 
 🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
 
-|                                       [Student 1](https://github.com/)                                        |                                       [Student 2](https://github.com/)                                        |                                       [Student 3](https://github.com/)                                        |                                       [Student 4](https://github.com/)                                        |                                       [Student 5](https://github.com/)                                        |
+|                                       [Michael Bundick](https://github.com/)                                        |                                       [Daniel Harris](https://github.com/)                                        |                                       [Tomas Fox](https://github.com/)                                        |                                       [Nicolas Montoya](https://github.com/)                                        |                                       [Matthew Feldman](https://github.com/)                                        |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
 |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |
 |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Mister-Corn)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/wvandolah)             |
@@ -44,15 +44,23 @@ Can we auto-generate project descriptions which can be used to help craft ideas 
 
 🚫  delete if front end is not applicable to your project
 
-1️⃣ [Deployed Front End](🚫add link to deployed app here)
+1️⃣ [Deployed Front End](https://www.ninenineproblems.com)
 
 ### Tech Stack
 
-🚫 List all of the languages, frameworks, services, etc used here.
+Python
+Jupyter
+Anaconda
+Colaboratory
+Knex
+Node.js
+React
+React-express
+styled-components
 
 ### 2️⃣ Predictions
 
-🚫 Describe your models here
+Model attempts to generate descriptions of problems that can be worked on by humans.  It does this by using issues identified by humans as potentially profitable as a primer, and then is allowed to create.  After some logical gates on quality of output, output is turned over to voters, who winnow down the full body of ideas into the most useable projects, which are then given to Lambda Labs staff as part of Labs team ideation.
 
 ### 2️⃣ Explanatory Variables
 
@@ -66,11 +74,8 @@ Can we auto-generate project descriptions which can be used to help craft ideas 
 🚫  Add to or delete souce links as needed for your project
 
 
--   [Source 1] (🚫add link to python notebook here)
--   [Source 2] (🚫add link to python notebook here)
--   [Source 3] (🚫add link to python notebook here)
--   [Source 4] (🚫add link to python notebook here)
--   [Source 5] (🚫add link to python notebook here)
+-   [crunchbase] (https://www.crunchbase.com)
+-   [Angelist] (https://angelist.co)
 
 ### Python Notebooks
 
@@ -94,7 +99,7 @@ Can we auto-generate project descriptions which can be used to help craft ideas 
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-Please note we have a [code of conduct](./code_of_conduct.md.md). Please follow it in all your interactions with the project.
+Please note we have a [code of conduct](./guidelines/code_of_conduct.md.md). Please follow it in all your interactions with the project.
 
 ### Issue/Bug Request
 
@@ -128,6 +133,6 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Backend Documentation](_link to your backend readme here_) for details on the backend of our project.
+See [Backend Documentation](https://github.com/labs15-pain-point/backend/blob/master/README.md) for details on the backend of our project.
 
-See [Front End Documentation](_link to your front end readme here_) for details on the front end of our project.
+See [Front End Documentation](https://github.com/labs15-pain-point/frontend/blob/master/README.md) for details on the front end of our project.
