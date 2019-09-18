@@ -1,28 +1,15 @@
-# Data-Science
-
-🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.
-
-🚫 The numbers 1️⃣ through 5️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
-
-🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements.
-
 # 1️⃣ 99 problems 
 
 You can find the project at [99problems](ninenineproblems.com).
 
 ## 5️⃣ Contributors
 
-🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
 
 |                                       [Michael Bundick](https://github.com/)                                        |                                       [Daniel Harris](https://github.com/)                                        |                                       [Tomas Fox](https://github.com/)                                        |                                       [Nicolas Montoya](https://github.com/)                                        |                                       [Matthew Feldman](https://github.com/)                                        |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
 |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |
-|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Mister-Corn)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/wvandolah)             |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
-
-
-
-🚫 5️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
+|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/bundickm)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/veritaem)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tomfox1)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NicoMontoya)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/matt0418)             |
+| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/michael-bundick/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/daniel-harris-45a417176/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/tomasfox1/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/nico-montoya/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/matthew-r-feldman/) |
 
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 ![Typescript](https://img.shields.io/npm/types/typescript.svg?style=flat)
@@ -41,8 +28,6 @@ You can find the project at [99problems](ninenineproblems.com).
 Coming up with ideas for new projects that can be used by Lambda School is a difficult and time consuming task which can end up creating sub-optimal or superfluous projects. 
 
 Can we auto-generate project descriptions which can be used to help craft ideas for projects?
-
-🚫  delete if front end is not applicable to your project
 
 1️⃣ [Deployed Front End](https://www.ninenineproblems.com)
 
@@ -71,21 +56,19 @@ Model attempts to generate descriptions of problems that can be worked on by hum
 -   Explanatory Variable 5
 
 ### Data Sources
-🚫  Add to or delete souce links as needed for your project
-
 
 -   [crunchbase] (https://www.crunchbase.com)
 -   [Angelist] (https://angelist.co)
 
 ### Python Notebooks
 
-🚫  Add to or delete python notebook links as needed for your project
+[Initial Training](https://github.com/labs15-pain-point/Data-Science/blob/master/notebooks/training_the_mid_size_GPT_2_model.ipynb)
 
-[Python Notebook 1](🚫add link to python notebook here)
+[Initial Post-process](https://github.com/labs15-pain-point/Data-Science/blob/master/notebooks/GPT_2_Simple_Post_Processing.ipynb)
 
-[Python Notebook 2](🚫add link to python notebook here)
+[Combined/Iterated Notebook](https://github.com/labs15-pain-point/Data-Science/blob/master/notebooks/Pain_Point_Finder_MVP_1.ipynb)
 
-[Python Notebook 3](🚫add link to python notebook here)
+[Reusable Script Form](https://github.com/labs15-pain-point/Data-Science/blob/master/script/script1.py)
 
 ### 3️⃣ How to connect to the web API
 
