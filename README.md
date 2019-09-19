@@ -7,7 +7,7 @@ You can find the project at [99problems](ninenineproblems.com).
 
 |                                       [Michael Bundick](https://github.com/)                                        |                                       [Daniel Harris](https://github.com/)                                        |                                       [Tomas Fox](https://github.com/)                                        |                                       [Nicolas Montoya](https://github.com/)                                        |                                       [Matthew Feldman](https://github.com/)                                        |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |
+|                      [<img src="./img/michaelbundick.png" width = "200" />](https://github.com/bundickm)                       |                      [<img src="./img/daniel.png" width = "200" />](https://github.com/veritaem)                       |                      [<img src="./img/tomasfox.jpg" width = "200" />](https://github.com/tomfox1)                       |                      [<img src="./img/127A9539-1.jpg" width = "200" />](https://github.com/NicoMontoya)                       |                      [<img src="./img/Matt.jpeg" width = "200" />](https://github.com/matt0418)                       |
 |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/bundickm)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/veritaem)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tomfox1)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NicoMontoya)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/matt0418)             |
 | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/michael-bundick/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/daniel-harris-45a417176/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/tomasfox1/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/nico-montoya/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/matthew-r-feldman/) |
 
@@ -49,11 +49,7 @@ Model attempts to generate descriptions of problems that can be worked on by hum
 
 ### 2️⃣ Explanatory Variables
 
--   Explanatory Variable 1
--   Explanatory Variable 2
--   Explanatory Variable 3
--   Explanatory Variable 4
--   Explanatory Variable 5
+-TODO
 
 ### Data Sources
 
