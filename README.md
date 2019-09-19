@@ -1,8 +1,8 @@
-# 1️⃣ 99 problems 
+# 99 problems 
 
 You can find the project at [99problems](ninenineproblems.com).
 
-## 5️⃣ Contributors
+## Contributors
 
 
 |                                       [Michael Bundick](https://github.com/)                                        |                                       [Daniel Harris](https://github.com/)                                        |                                       [Tomas Fox](https://github.com/)                                        |                                       [Nicolas Montoya](https://github.com/)                                        |                                       [Matthew Feldman](https://github.com/)                                        |
@@ -11,45 +11,42 @@ You can find the project at [99problems](ninenineproblems.com).
 |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/bundickm)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/veritaem)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tomfox1)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NicoMontoya)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/matt0418)             |
 | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/michael-bundick/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/daniel-harris-45a417176/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/tomasfox1/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/nico-montoya/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/matthew-r-feldman/) |
 
-![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
-![Typescript](https://img.shields.io/npm/types/typescript.svg?style=flat)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5c4db1c-b10d-42c3-b157-3746edd9e81d/deploy-status)](netlify link goes in these parenthesis)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-🚫 more info on using badges [here](https://github.com/badges/shields)
-
 ## Project Overview
 
 
-1️⃣ [Trello Board](https://trello.com/b/he82E7wv/labs-15-pain-point)
+ [Trello Board](https://trello.com/b/he82E7wv/labs-15-pain-point)
 
-1️⃣ [Product Canvas](https://www.notion.so/Pain-Point-Radar-d6bb1298df424fe694c16df3885c23ff)
+ [Product Canvas](https://www.notion.so/Pain-Point-Radar-d6bb1298df424fe694c16df3885c23ff)
 
 Coming up with ideas for new projects that can be used by Lambda School is a difficult and time consuming task which can end up creating sub-optimal or superfluous projects. 
 
 Can we auto-generate project descriptions which can be used to help craft ideas for projects?
 
-1️⃣ [Deployed Front End](https://www.ninenineproblems.com)
+[Deployed Front End](https://www.ninenineproblems.com)
 
 ### Tech Stack
 
-Python
-Jupyter
-Anaconda
-Colaboratory
-Knex
-Node.js
-React
-React-express
-styled-components
+- Python,
+- Jupyter,
+- Anaconda,
+- Colaboratory,
+- Knex,
+- Node.js,
+- React,
+- React-express,
+- styled-components,
 
-### 2️⃣ Predictions
+### Predictions
 
 Model attempts to generate descriptions of problems that can be worked on by humans.  It does this by using issues identified by humans as potentially profitable as a primer, and then is allowed to create.  After some logical gates on quality of output, output is turned over to voters, who winnow down the full body of ideas into the most useable projects, which are then given to Lambda Labs staff as part of Labs team ideation.
 
-### 2️⃣ Explanatory Variables
+### Explanatory 
 
--TODO
+- We acquired API keys for crunchbase, and used a scraper to extract a little info from angellist (ended up not using)
+- We are utilizing a preprocess filter to ensure primer text gives greater chance of quality output
+- Model was then finetuned to produce better output over successive iterations
+- Text was generated with varying degrees of creativity allowed until a happy medium was decided
+- We are utilizing a postprocess series of gates in order to make sure that the descriptions at least mostly conform to language requirements (less repeating yourself, less useless info like who founded it and when)
 
 ### Data Sources
 
@@ -68,11 +65,7 @@ Model attempts to generate descriptions of problems that can be worked on by hum
 
 ### 3️⃣ How to connect to the web API
 
-🚫 List directions on how to connect to the API here
-
-### 3️⃣ How to connect to the data API
-
-🚫 List directions on how to connect to the API here
+[backend link - can use postman etc to access more directly](https://github.com/labs15-pain-point/backend)
 
 ## Contributing
 
