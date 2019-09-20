@@ -22,10 +22,19 @@
  - Once the output was refined, we faced one more issue: the consumer needed a way to quickly run through the hypothetically limitless amount of descriptions quickly to find the most usable ones.  Here we decided to implement a voting system, which essentially allowed us to have the students who would eventually use these products, do the labelling for us.  This helped ensure a wider range of viewpoints and ultimately stronger project, and 'should' make sure the top descriptions are things people want to make.  
  - Once the data science part was rolling along, the next hurdle was learning enough javascript, react, node, and knex to make a functioning website and backend complete with a voter mechanism, with none of us but our TL having any experience in it.  Thanks to the excellent teaching, guidance, and more than a little work by our TL Matt Feldman, a fine web developer, we were able to deploy in only 2 weeks, with each of us responsible for various parts.
  
-## Current Solution - Tomas
-  - Technical explanation of the project
-  - What technical avenues we used to solve the issues
-  - Any lingering issues that couldn't be solved, or were added with the solution
+## Current Solution
+
+•	Technical explanation of the project
+Our Data Science team trained Open-AI’s GPT-2 language model using a Python wrapper developed by Data Scientist Max Woolf. GPT-2 is an unsupervised learning language model whose sole objective is to predict with the highest degree of accuracy what the best next word is given a set of inputs. In other words, conditionally, given an input A, the model predicts an output B. GPT-2 was trained from a library of 8 million websites (40gb) from Reddit outbound links that received over 3 karma; the idea here was for Open-AI to feed GPT-2 a diverse knowledge base in order to give GPT-2 a solid grasp of the English language (grammar, semantic structure) and allow GPT-2 to work in a variety of unsupervised learning tasks.
+
+•	What technical avenues we used to solve the issues
+We implemented GPT-2’s smaller model using Max Woolf’s wrapper and fine-tuned it by feeding it over 170,000 company descriptions from Crunchbase. As outlined in the earlier sections of this file, we wanted our model output to closely replicate our input of company descriptions. In the preprocessing stages of our project we implemented common data wrangling, cleaning & handling libraries in Python, such as Pandas, Sklearn and Numpy. Aside from the GPT-2 wrapper we used, imported as a PyPI package, we also used Tensorflow to begin our GPT-2 model session, fine-tuning, and start generating an output. In the post-processing stages of our project we filtered out through stop words by using one of Spacy’s language models ‘en_core_web_sm’.
+
+•	Any lingering issues that couldn't be solved, or were added with the solution
+Open AI definitely made a stride with GPT-2 as an unsupervised language model that performs well in a variety of tasks; however, there was a major bottleneck we found in our implementation of it: 
+
+As we used a GPT-2 wrapper, we were not able to fine-tune all the models’ hyper-parameters necessary to increase the likelihood of generating output that was indistinguishable from human-generated text. We faced the trade-off between going with a simpler application of the model (the wrapper we used) in which we still had a certain degree of flexibility, and implementing Open-AI’s full GPT-2 model which would have required out of scope levels of complexity in our end. Nevertheless, we still managed to create value by making the selection process for Lambda Labs easier. The hyper-parameters that were at our disposal such as the number of steps (epochs), or at what temperature to generate text were sufficient for the scope of this project, however, to reproduce company descriptions that are AI-generated and mostly useful and innovative, an attempt at deconstructing Open-AI’s 1.5 billion parameter (still not publically released) model would have had to be made.
+
   
 ## Possible avenues for improvement
 There are a couple clear avenues for continued refinement and improvement of the project:
