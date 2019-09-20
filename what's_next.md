@@ -1,9 +1,17 @@
 # What's Next
 
-## Description of the Project - Nico
-  - Discuss why this project is important
-  - initial thoughts regarding implementation (twitter api and assess)
-  - Overall what the project looks like from here
+## Description of the Project
+
+  #### **Why This Project?**
+  - As Lambda School grows there will be more and more students that participate in labs projects. Coming up with project ideas will be a near impossible task for the Lambda Labs staff in the future. Even if some ideas are recycled, or improved upon, there will always be a need for novel ideas. Without labs, students will not have a showcase project to discuss with employers. Without new ideas, labs will become less and less valuable for students in the future. This project aims not only to alleviate the idea formation process for the labs staff, but to save Labs for future Lambda students.
+    
+  #### **Initial Ideas**
+  - At first, our team was looking to examine tweets from the general public on twitter. We could use the twitter API to pull data and examine as many tweets as we can. We aimed to detect sentiment to see if we could extract pain points, which could then be turned into ideas or problems for the Lambda Team.
+
+      After some playing around and consultation with DS professors, our team decided to switch gears. While extracting pain points from tweets may have been possible, there was more direct manner to attack the problem. Instead we decided to create a large dataset of company descriptions from the internet. We sifted through Angel List, Pitchbook, LinkedIn and Crunchbase for the data. Ultimately crunchbase ended up being the easiest to extract data from.
+      
+  #### **Results**
+  - After training a model with the crunchbase data, the team has come up with outputs that very closely resemble company descriptions. The text output is legible, and each describe an issue that is computer generated. Not every single output is sensible. Most are not ready to hand off to labs teams. What the team has been able to come up with is a trained model that generates text output in the format of a business problem. The future of this project will be to keep improving the output to the point that the Lambda Staff can cherry pick the best outputs from the model and put them straight into the hands of a Labs team.
   
 ## Challenges
  - One of the initial challenges for this project was that the original vision was perhaps just a bit wide.  Original plan was to use the twitter api to source tweets of people complaining, run them through a sentiment analysis filter, and run all this through BERT/ELMO.  The issue with this was a lack of consistency not only in what the tweets were complaining about (structural, emotional, value-based, etc.) but also a disconnect between things like subject verb agreement, and trying to find out if a tweet was a two+ part message, because all of that would require concatenation to train on.  
